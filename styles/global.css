@@ -35,3 +35,13 @@ a:hover {
   color: var(--brand-color);
   text-decoration: underline;
 }
+
+.container {
+  padding-inline: 32px;
+  margin-inline: auto; /*deixar centralizado msm ao diminuir*/
+  max-width: 1280px;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
